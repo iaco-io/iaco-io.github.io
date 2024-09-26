@@ -5,14 +5,957 @@
     <description>Build your Lifestyles. Build YOU.</description>
     <link>https://iaco.io/</link>
     <atom:link href="https://iaco.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Mar 2024 11:07:32 +0100</pubDate>
-    <lastBuildDate>Mon, 11 Mar 2024 11:07:32 +0100</lastBuildDate>
-    <generator>Jekyll v4.3.3</generator>
+    <pubDate>Thu, 26 Sep 2024 16:09:59 -0300</pubDate>
+    <lastBuildDate>Thu, 26 Sep 2024 16:09:59 -0300</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
     <webfeeds:cover image="https://iaco.io/assets/media/bg/iaco-logo-share-yt.jpg" />
     <webfeeds:icon>https://iaco.io/assets/media/logo/power-alpha.svg</webfeeds:icon>
     <webfeeds:logo>https://iaco.io/assets/media/logo/power-alpha.svg</webfeeds:logo>
     <webfeeds:accentColor>0EA2F1</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
+    
+      
+      <item>
+        <title>The productive tools I recommend</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/building-habits/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/bg/default.jpg' alt="The productive tools I recommend">
+            
+            </a>
+            <p>We all would like to be “more productive”, right?</p>
+
+<p>Well, not so fast… Do we really want to use less time enjoying our “hot morning drink” (be it coffee ☕️ or chocolate 🍫)? Or use less time with our family and friends?</p>
+
+<p>There are things in life we do not wish to be more efficient. That’s why we should always keep in mind the following question when we commit to something:</p>
+
+<blockquote>
+  <p>Considering the activity I will engage with. Does it require <strong>efficiency</strong>, or <strong>enjoyment</strong> in order to be the most successful?</p>
+</blockquote>
+
+<p>If it requires <em>enjoyment</em>, then this list is not for that 😉 (with maybe the exception of the ‘Calendar’ below)</p>
+
+<h1 id="-calendar">📆 Calendar</h1>
+
+<div style="display: table; width: 100%; height: 100%;">
+<div class="col-six text-col">
+
+    <h1 id="pomodoro">🍅 Pomodoro</h1>
+
+    <p>dafjl ladfj lsadjf kdsj faksd fk fk</p>
+
+    <p>asf asf saf sadf sadf asdf asdf sad</p>
+
+    <p>sfiasjflkjsad fsalkdjflkdsajf kl;sdjf als;kdjf dsjfklsdj fs  sjdkf</p>
+
+    <p>sdljf sdjf dsfj sdjf sdkjfh sdhdskjfhsdkjfh kjdsfh skd</p>
+
+    <p><a href="/" class="button small">read more</a></p>
+
+  </div>
+<div class="col-six text-col">
+
+    <h1 id="min-rule">⏲️ 2min Rule</h1>
+
+    <p>a</p>
+
+  </div>
+</div>
+
+<div style="display: table; width: 100%; height: 100%;">
+<div class="col-four text-col">
+
+    <h1 id="a">A</h1>
+
+    <p>dafjl ladfj lsadjf kdsj faksd fk fk</p>
+
+    <p>asf asf saf sadf sadf asdf asdf sad</p>
+
+    <p>sfiasjflkjsad fsalkdjflkdsajf kl;sdjf als;kdjf dsjfklsdj fs  sjdkf</p>
+
+    <p>sdljf sdjf dsfj sdjf sdkjfh sdhdskjfhsdkjfh kjdsfh skd</p>
+
+    <p><a href="/" class="button small">read more</a></p>
+
+  </div>
+<div class="col-four text-col">
+
+    <h1 id="b">B</h1>
+
+    <p>a</p>
+
+    <p>b</p>
+
+    <p>c</p>
+
+  </div>
+<div class="col-four text-col">
+
+    <h1 id="c">C</h1>
+
+    <p>a</p>
+
+  </div>
+</div>
+
+<div id="newsletter" class="col-content">
+    <div class="newsletter-bg" style="background-image: url('https://iaco.io/assets/media/bg/default.jpg');">
+    </div>
+    <form target="_blank" style="margin: 0;" action="https://app.convertkit.com/forms/5308287/subscriptions" method="post">
+        <div class="newsletter-text col-full align-center">
+            <em style="font-weight: bold;">I just started this online adventure!</em>
+            <br />
+            Soon I wish to send my first newsletter, and you can join me by subscribing here ;)
+
+            <!--<em style="font-weight: bold;">Receive 3 free templates I use in my daily life</em>
+            <br>
+            The 3-day nutritious food plan I follow,
+            the 5-days full workouts I use in the gym,
+            and my technique to create up to 4 new habits per year.
+            Just subscribe to my newsletter below!
+            <em style="font-weight: bold;">Join Weekly Wave <i class="far fa-paper-plane fa-2xl"></i></em>
+            <br>
+            Join a 400+ growing community who,
+            just like you, wish to receive evidence-based and practical solutions by e-mail!
+            We can build a fulfilling life, one action at a time. -->
+        </div>
+        <div class="col-five align-center">
+            <input class="full" name="email_address" required="" type="email" placeholder=" &#xF0E0;  Your best e-mail" autocapitalize="none" autocorrect="off" />
+        </div>
+        <div class="col-five align-center">
+            <input class="full" name="first_name" required="" type="text" placeholder=" &#xF007;  Your first name" />
+        </div>
+        <div class="col-two align-center" style="padding-bottom: 1rem;">
+            <input type="submit" class="button small full" value="Join &#xF1D8;" />
+        </div>
+    </form>
+    <!-- <form action="https://duck.us21.list-manage.com/subscribe/post" method="POST" target="_blank">
+        <input type="hidden" name="u" value="b8ca9f360089f08ce657ac282">
+        <input type="hidden" name="id" value="c3495b1d48">
+        <div class="col-twelve align-center">
+            <hr>
+            <p>
+                Smarter Saturday
+                <br>
+                <i class="far fa-paper-plane fa-2xl"></i>
+                <br>
+                Join a growing community of people who, just like you, wish to receive
+                evidence-based and practical solutions right in their inbox!
+                We can build a fulfilling life, one insight at a time.
+            </p>
+        </div>
+        <div class="col-six align-center">
+            <input type="email" autocapitalize="none" autocorrect="off" name="EMAIL" placeholder="&#xF0E0;  Your best e-mail" />
+        </div>
+        <div class="col-six align-center">
+            <input type="text" name="FNAME" placeholder="&#xF007;  Your first name" />
+        </div>
+        <div class="col-twelve align-center">
+            <input type="submit" name="submit" value="Join Smarter Saturday &#xF1D8;" class="button" />
+            <hr>
+        </div>
+    </form> -->
+</div>
+
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/building-habits/">https://iaco.io/article/building-habits/</a></p>
+            <p><a href="https://iaco.io/article/building-habits/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 11 Sep 2024 16:30:00 -0300</pubDate>
+        <link>https://iaco.io/article/building-habits/</link>
+        <guid isPermaLink="true">https://iaco.io/article/building-habits/</guid>
+        
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/default.jpg'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/default.jpg'/>
+        <summary>
+We all would like to be “more productive”, right?
+
+Well, not so fast… Do we really want to use less time enjoying our “hot morning drink” (be it coffee ☕️ or chocolate 🍫)? Or use less time with our family and friends?
+
+There are things in l
+[...]
++👉 https://iaco.io/article/building-habits/
+        </summary>
+      </item>
+      
+    
+      
+      <item>
+        <title>My Evidence-Based Diet – How to Eat Healthy? (and Enjoy it!)</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/eat-healthy/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/articles/eat-healthy.jpg' alt="My Evidence-Based Diet – How to Eat Healthy? (and Enjoy it!)">
+            
+            </a>
+            
+<div class="video-wrapper">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/eat-healthy?playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<p>In 2018 I was <del>just graduated and unemployed</del> <em>on vacation</em>.
+Back then I was considering to do a PhD, because to be 100% honest with you… I had <em>no idea</em> what I wanted to do with my life, and a PhD seemed a good and productive way to postpone such a decision for a few more years :)</p>
+
+<p>I remember until this day: me, at my mom’s basement (she is the sweetest, she had prepared a full room just for me to come and live with her for a few months), it was 2 a.m. in the night, and I was researching on my computer <em>how to eat healthy?</em></p>
+
+<p>I stumbled upon a MYRIAD of tips, recommendations, doctrines, superstitions and bro-sciences… all of them promising to be the best when it comes to eating healthy…</p>
+
+<p>After more than two month absorbing pages and pages of information, two things came out as trustworthy and evidence-based enough for me to trust:</p>
+
+<ul>
+  <li>a healthy diet provides the minimum of <em>macro- and micro-nutrients</em> through <em>whole foods</em> as much as it is feasible, and</li>
+  <li>a healthy diet contains <em>(near-)zero</em> of scientificaly studied <em>unhealthy foods/nutrients</em>.</li>
+</ul>
+
+<p>There are a ton of research online, good and not-so-good ones. I will focus on presenting below the ones I found to be evidence-based and from trust-worthy sources. This list is not exhaustive, but I did my best to list good sources you can get more information from if you wish. I hope it gives you a good head start!</p>
+
+<blockquote>
+  <p>If you got any questions, ask me on youtube or insta 😉 I will be happy to help!</p>
+</blockquote>
+
+<ul id="markdown-toc">
+  <li><a href="#omegas-3-and-6" id="markdown-toc-omegas-3-and-6">Omegas 3 and 6</a></li>
+  <li><a href="#fiber" id="markdown-toc-fiber">Fiber</a></li>
+  <li><a href="#cholesterol" id="markdown-toc-cholesterol">Cholesterol</a></li>
+  <li><a href="#saturated-fat" id="markdown-toc-saturated-fat">Saturated Fat</a></li>
+  <li><a href="#minerals" id="markdown-toc-minerals">Minerals</a>    <ul>
+      <li><a href="#calcium" id="markdown-toc-calcium">Calcium</a></li>
+      <li><a href="#iron" id="markdown-toc-iron">Iron</a></li>
+      <li><a href="#iodine" id="markdown-toc-iodine">Iodine</a></li>
+      <li><a href="#sodium" id="markdown-toc-sodium">Sodium</a></li>
+    </ul>
+  </li>
+  <li><a href="#vitamins" id="markdown-toc-vitamins">Vitamins</a>    <ul>
+      <li><a href="#vitamin-d" id="markdown-toc-vitamin-d">Vitamin D</a></li>
+      <li><a href="#vitamin-b12" id="markdown-toc-vitamin-b12">Vitamin B12</a></li>
+      <li><a href="#vitamin-a" id="markdown-toc-vitamin-a">Vitamin A</a></li>
+      <li><a href="#vitamin-c" id="markdown-toc-vitamin-c">Vitamin C</a></li>
+      <li><a href="#vitamin-e" id="markdown-toc-vitamin-e">Vitamin E</a></li>
+      <li><a href="#choline" id="markdown-toc-choline">Choline</a></li>
+    </ul>
+  </li>
+  <li><a href="#build-a-diet--practical-advice" id="markdown-toc-build-a-diet--practical-advice">Build a diet — practical advice</a></li>
+  <li><a href="#tldr" id="markdown-toc-tldr">TL;DR</a></li>
+  <li><a href="#more-sources" id="markdown-toc-more-sources">More sources</a></li>
+</ul>
+
+<h1 id="omegas-3-and-6">Omegas 3 and 6</h1>
+
+<p>You probably already heard about the importance of Omega 3’s, and maybe understand it is important to keep a balance intake of Omegas 3 and 6.</p>
+
+<p>The rule is pretty simple: for every milligram of Omega 3, you can eat between 1 and 5 milligrams of Omega 6.
+So any ratio between 1:1 and 1:5 should be good (source???), with the general recommendation being 1:2 or 1:3 — I personally strive for the 1:1, which showed sometimes to be the the ideal (source???).</p>
+
+<p>But maybe what you didn’t know about is that we have 3 types of Omega 3’s: ALA, EDH???, and DHA.
+I will not go too much in detail, what is important to remember is that even consuming only ALA our bodies can use it and create EDH??? and DHA.</p>
+
+<p>In summary, the minimum Omega 3 intake should be around:</p>
+
+<ul>
+  <li>X mg/day for ALA</li>
+  <li>X mg/day for EDL???</li>
+  <li>X mg/day for DHA</li>
+</ul>
+
+<p>One fact to keep in mind is that the efficiency of ALA-EDH-DHA conversion varies among humans.
+So a safer approach is to eat a small Omega 3 supplement with EDH and DHA.
+I personally take (this one every day - Amazonlink???), with X EDH??? and X DHA, and without any smell! (some Omega 3 supplements smell like fish 🥴 this one comes ???hidden span for future post???direct from the source: algaes(s???)??/hidden??)</p>
+
+<h1 id="fiber">Fiber</h1>
+
+<p>Many people lack river on their diet! And fiber is super important for correct food digestion and nutrient absorption. If you eat mostly whole and plant-based foods, you already probably eat more than enough fiber!</p>
+
+<p>In summary, eat at the very least X g of fiber per day. I personally strive for at least X g of fiber (and usually eat much more) 😋</p>
+
+<p>If you’re updating your diet now, increase your river intake slowly, otherwise your guts may not have time to adapt and you could feel constipated in the beginning. The good news is your body adapts in just a few weeks!</p>
+
+<h1 id="cholesterol">Cholesterol</h1>
+
+<p>This one is to be avoided. High cholesterol intake has shown to be detrimental for health (source???), and linked to diseases such as (list???).</p>
+
+<p>Humans do not need to consume any cholesterol, because our bodies can produce all that it needs, therefore my recommended intake is zero grams. Medical advice says to limit the daily intake to a maximum of X g per day or less.</p>
+
+<p>As a quick reminder, the only cholesterol sources in any diet are animal products we eat, such as meats, dairy and eggs. Plant-based foods have always zero cholesterol. Limiting or replacing animal products in your diet is a good idea.</p>
+
+<h1 id="saturated-fat">Saturated Fat</h1>
+
+<p>This one is to be avoided, too. High saturated fat intake has shown to be detrimental for health, and be connected to many diseases, specially those related to your heart and blood flow.</p>
+
+<p>The recommended (source???) daily intake should be lower than X mg. I personally strive for X mg per day 🙂</p>
+
+<p>As a quick reminder, most saturated fat sources are animal products we eat, such as meats, dairy and eggs. Most plant-based foods have low or zero saturated fats, with some exceptions like coconut oil. As I said previously, limiting or replacing animal products in your diet is a good idea.</p>
+
+<h1 id="minerals">Minerals</h1>
+
+<h2 id="calcium">Calcium</h2>
+
+<h2 id="iron">Iron</h2>
+
+<h2 id="iodine">Iodine</h2>
+
+<h2 id="sodium">Sodium</h2>
+
+<h1 id="vitamins">Vitamins</h1>
+
+<h2 id="vitamin-d">Vitamin D</h2>
+
+<h2 id="vitamin-b12">Vitamin B12</h2>
+
+<h2 id="vitamin-a">Vitamin A</h2>
+
+<h2 id="vitamin-c">Vitamin C</h2>
+
+<h2 id="vitamin-e">Vitamin E</h2>
+
+<h2 id="choline">Choline</h2>
+
+<h1 id="build-a-diet--practical-advice">Build a diet — practical advice</h1>
+
+<p>Now, enough of theory — with this information you can already put your hands to work, and build an actual diet plan, that is both healthy and nutritious!</p>
+
+<p>If you want a more practical solution go to this <a href="/article/cronometer">article</a>, where I show you how I use an amazing app called Cronometer, with a step-by-step guide, and even an example from my own weekly eating plan/diet.</p>
+
+<p>(add an “article box” here???)</p>
+
+<h1 id="tldr">TL;DR</h1>
+
+<p>Here is a summary of each nutrient presented in the above article:</p>
+
+<ul>
+  <li>Omegas 3 and 6:</li>
+  <li>A</li>
+  <li>B</li>
+  <li>C???</li>
+</ul>
+
+<p>For a practical guide on how to actually build a weekly eating plan, go to (this article)(link???)</p>
+
+<h1 id="more-sources">More sources</h1>
+
+<p>If you’re interested to acquire even more knowledge, I recommend these sources:</p>
+
+<ul>
+  <li>vegan health (website)</li>
+  <li>nutritionfacts (website and youtube channel)</li>
+  <li>Examine.com (website)</li>
+  <li>uncommon vegan (youtube channel)</li>
+  <li>Mic the vegan (youtube channel)</li>
+</ul>
+
+<div id="newsletter" class="col-content">
+    <div class="newsletter-bg" style="background-image: url('https://iaco.io/assets/media/bg/default.jpg');">
+    </div>
+    <form target="_blank" style="margin: 0;" action="https://app.convertkit.com/forms/5308287/subscriptions" method="post">
+        <div class="newsletter-text col-full align-center">
+            <em style="font-weight: bold;">I just started this online adventure!</em>
+            <br />
+            Soon I wish to send my first newsletter, and you can join me by subscribing here ;)
+
+            <!--<em style="font-weight: bold;">Receive 3 free templates I use in my daily life</em>
+            <br>
+            The 3-day nutritious food plan I follow,
+            the 5-days full workouts I use in the gym,
+            and my technique to create up to 4 new habits per year.
+            Just subscribe to my newsletter below!
+            <em style="font-weight: bold;">Join Weekly Wave <i class="far fa-paper-plane fa-2xl"></i></em>
+            <br>
+            Join a 400+ growing community who,
+            just like you, wish to receive evidence-based and practical solutions by e-mail!
+            We can build a fulfilling life, one action at a time. -->
+        </div>
+        <div class="col-five align-center">
+            <input class="full" name="email_address" required="" type="email" placeholder=" &#xF0E0;  Your best e-mail" autocapitalize="none" autocorrect="off" />
+        </div>
+        <div class="col-five align-center">
+            <input class="full" name="first_name" required="" type="text" placeholder=" &#xF007;  Your first name" />
+        </div>
+        <div class="col-two align-center" style="padding-bottom: 1rem;">
+            <input type="submit" class="button small full" value="Join &#xF1D8;" />
+        </div>
+    </form>
+    <!-- <form action="https://duck.us21.list-manage.com/subscribe/post" method="POST" target="_blank">
+        <input type="hidden" name="u" value="b8ca9f360089f08ce657ac282">
+        <input type="hidden" name="id" value="c3495b1d48">
+        <div class="col-twelve align-center">
+            <hr>
+            <p>
+                Smarter Saturday
+                <br>
+                <i class="far fa-paper-plane fa-2xl"></i>
+                <br>
+                Join a growing community of people who, just like you, wish to receive
+                evidence-based and practical solutions right in their inbox!
+                We can build a fulfilling life, one insight at a time.
+            </p>
+        </div>
+        <div class="col-six align-center">
+            <input type="email" autocapitalize="none" autocorrect="off" name="EMAIL" placeholder="&#xF0E0;  Your best e-mail" />
+        </div>
+        <div class="col-six align-center">
+            <input type="text" name="FNAME" placeholder="&#xF007;  Your first name" />
+        </div>
+        <div class="col-twelve align-center">
+            <input type="submit" name="submit" value="Join Smarter Saturday &#xF1D8;" class="button" />
+            <hr>
+        </div>
+    </form> -->
+</div>
+
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/eat-healthy/">https://iaco.io/article/eat-healthy/</a></p>
+            <p><a href="https://iaco.io/article/eat-healthy/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 03 Jul 2024 13:35:00 -0300</pubDate>
+        <link>https://iaco.io/article/eat-healthy/</link>
+        <guid isPermaLink="true">https://iaco.io/article/eat-healthy/</guid>
+        
+        
+        <category>nutrition</category>
+        
+        <category>fitness</category>
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/articles/eat-healthy.jpg'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/articles/eat-healthy.jpg'/>
+        <summary>
+
+
+
+
+
+In 2018 I was just graduated and unemployed on vacation.
+Back then I was considering to do a PhD, because to be 100% honest with you… I had no idea what I wanted to do with my life, and a PhD seemed a good and productive way to postpon
+[...]
++👉 https://iaco.io/article/eat-healthy/
+        </summary>
+      </item>
+      
+    
+      
+      <item>
+        <title>With this app I was finally able to eat healthier - and it is 100% free!</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/cronometer/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/articles/cronometer.jpg' alt="With this app I was finally able to eat healthier - and it is 100% free!">
+            
+            </a>
+            <p><code class="language-plaintext highlighter-rouge">aaa</code></p>
+
+<p><a class="buttonmodal">link is here hahaha</a></p>
+
+<!-- { % include modal permalink="/article/cronometer/" %} -->
+
+<!-- 
+<div class="video-wrapper">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cronometer?playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ -->
+
+<!-- link to artcle about eating healthy (in theory) -->
+
+<div id="newsletter" class="col-content">
+    <div class="newsletter-bg" style="background-image: url('https://iaco.io/assets/media/bg/default.jpg');">
+    </div>
+    <form target="_blank" style="margin: 0;" action="https://app.convertkit.com/forms/5308287/subscriptions" method="post">
+        <div class="newsletter-text col-full align-center">
+            <em style="font-weight: bold;">I just started this online adventure!</em>
+            <br />
+            Soon I wish to send my first newsletter, and you can join me by subscribing here ;)
+
+            <!--<em style="font-weight: bold;">Receive 3 free templates I use in my daily life</em>
+            <br>
+            The 3-day nutritious food plan I follow,
+            the 5-days full workouts I use in the gym,
+            and my technique to create up to 4 new habits per year.
+            Just subscribe to my newsletter below!
+            <em style="font-weight: bold;">Join Weekly Wave <i class="far fa-paper-plane fa-2xl"></i></em>
+            <br>
+            Join a 400+ growing community who,
+            just like you, wish to receive evidence-based and practical solutions by e-mail!
+            We can build a fulfilling life, one action at a time. -->
+        </div>
+        <div class="col-five align-center">
+            <input class="full" name="email_address" required="" type="email" placeholder=" &#xF0E0;  Your best e-mail" autocapitalize="none" autocorrect="off" />
+        </div>
+        <div class="col-five align-center">
+            <input class="full" name="first_name" required="" type="text" placeholder=" &#xF007;  Your first name" />
+        </div>
+        <div class="col-two align-center" style="padding-bottom: 1rem;">
+            <input type="submit" class="button small full" value="Join &#xF1D8;" />
+        </div>
+    </form>
+    <!-- <form action="https://duck.us21.list-manage.com/subscribe/post" method="POST" target="_blank">
+        <input type="hidden" name="u" value="b8ca9f360089f08ce657ac282">
+        <input type="hidden" name="id" value="c3495b1d48">
+        <div class="col-twelve align-center">
+            <hr>
+            <p>
+                Smarter Saturday
+                <br>
+                <i class="far fa-paper-plane fa-2xl"></i>
+                <br>
+                Join a growing community of people who, just like you, wish to receive
+                evidence-based and practical solutions right in their inbox!
+                We can build a fulfilling life, one insight at a time.
+            </p>
+        </div>
+        <div class="col-six align-center">
+            <input type="email" autocapitalize="none" autocorrect="off" name="EMAIL" placeholder="&#xF0E0;  Your best e-mail" />
+        </div>
+        <div class="col-six align-center">
+            <input type="text" name="FNAME" placeholder="&#xF007;  Your first name" />
+        </div>
+        <div class="col-twelve align-center">
+            <input type="submit" name="submit" value="Join Smarter Saturday &#xF1D8;" class="button" />
+            <hr>
+        </div>
+    </form> -->
+</div>
+
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/cronometer/">https://iaco.io/article/cronometer/</a></p>
+            <p><a href="https://iaco.io/article/cronometer/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 03 Jul 2024 13:35:00 -0300</pubDate>
+        <link>https://iaco.io/article/cronometer/</link>
+        <guid isPermaLink="true">https://iaco.io/article/cronometer/</guid>
+        
+        
+        <category>nutrition</category>
+        
+        <category>fitness</category>
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/articles/cronometer.jpg'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/articles/cronometer.jpg'/>
+        <summary>
+aaa
+
+link is here hahaha
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+            I just started this online adventure!
+            
+            Soon I wish to send my first newsletter, and you can join me by subscribing here ;)
+
+            
+        
+ 
+[...]
++👉 https://iaco.io/article/cronometer/
+        </summary>
+      </item>
+      
+    
+      
+      <item>
+        <title>Veganism</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/vegan/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/bg/friends-toast.jpg' alt="Veganism">
+            
+            </a>
+            
+<div class="video-wrapper">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/JLTk1jksamk?playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<h1 id="reasons-why-people-go-vegan">Reasons why people go vegan</h1>
+
+<p>I can even give you myself as an example: I always call myself “vegan”, that’s what I identify with. Unfortunately, sometimes – for either lack of time, or mental strenght, or even knowledge – I did bought or used non-vegan things: vegetarian nuggets with eggs because did not read the package, small chocolates with milk because “needed chocolate”, winter clothers with wool because lacked time to research alternatives… guilty-trip do not help anyone, so let’s simply keep doing our human imperfect best!</p>
+
+<h2 id="title-number-two-haha">Title number two haha</h2>
+
+<p>I can even give you myself as an example: I always call myself “vegan”, that’s what I identify with. Unfortunately, sometimes – for either lack of time, or mental strenght, or even knowledge – I did bought or used non-vegan things: vegetarian nuggets with eggs because did not read the package, small chocolates with milk because “needed chocolate”, winter clothers with wool because lacked time to research alternatives… guilty-trip do not help anyone, so let’s simply keep doing our human imperfect best!</p>
+
+<h3 id="title-number-three-haha">Title number three haha</h3>
+
+<p>There are of course an infinitude of reasons why people choose to adopt veganism, and usually they involve:</p>
+
+<ul>
+  <li><strong>Physical health</strong>: a diet whoch is rich in vegetables and other plants, and that seeks to avoid animal products, have been shown to be benefitial. [ref:]</li>
+  <li><strong>Environment</strong>: veganism helps the environment in many ways, such as reducing CO2 and other greenhouse gases emissions to help fight climate change, lessening pollution of waters and lands, dicreasing deforestation and therefore opening up space for wild life and biodiversity, and probably many more.</li>
+  <li><strong>Animal welfare</strong>: in our modern society, where we have an increased access to knowledge, products and services, it is impossible to justify the assassination, exploitation and ultimately oppression of billion+ innocent animals <strong><em>weekly</em></strong>!</li>
+</ul>
+
+<h1 id="what-is-it">What is it?</h1>
+
+<p>It is simple: <strong><em>it is about the animals</em></strong>.</p>
+
+<p>Of course veganism has multiple benefits, such as personal health, environmental, societal… but ultimately, it is about the animals.</p>
+
+<p>The Vegan Society, who coined the term in 1944, define it as:</p>
+
+<blockquote>
+  <p>Veganism is a philosophy and way of living which seeks to exclude – as far as is possible and practicable – all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose; and by extension, promotes the development and use of animal-free alternatives for the benefit of animals, humans and the environment. In dietary terms it denotes the practice of dispensing with all products derived wholly or partly from animals.</p>
+</blockquote>
+
+<h1 id="can-i-call-myself-vegan">Can I call myself vegan?</h1>
+
+<p>Remember one very important thing: <strong><em>veganism is not about perfection!</em></strong></p>
+
+<p>You love cheese and “cannot live without”… well, adopt the other vegan habits, and try to reduce cheese consumption as you go forward – maybe make it a “guilty pleasure” to eat once in a while (?)</p>
+
+<h1 id="title-for-test">Title for test</h1>
+
+<p style="text-align: center;">
+    <a href="https://iaco.io/assets/media/bg/default.jpg" target="_blank" style="text-decoration: none !important;">
+    <img src="https://iaco.io/assets/media/bg/default.jpg" title="description of image" />
+    <em><small>description of image</small></em>
+    </a>
+</p>
+
+<h1 id="title-for-test-2">Title for test 2</h1>
+
+<p>But… then you may ask <em>“Can I call myself <strong>vegan</strong> and still eat cheese?!”</em> – perhaps for clarity, say “vegan in progress” or “vegan in transitiom”, or even “mostly vegan”. Honesly, for me, if you are genuinely trying to reduce animal exploitation and oppression, I do not care that much about the words you use :) Actions are more
+important.</p>
+
+<p>I can even give you myself as an example: I always call myself “vegan”, that’s what I identify with. Unfortunately, sometimes – for either lack of time, or mental strenght, or even knowledge – I did bought or used non-vegan things: vegetarian nuggets with eggs because did not read the package, small chocolates with milk because “needed chocolate”, winter clothers with wool because lacked time to research alternatives… guilty-trip do not help anyone, so let’s simply keep doing our human imperfect best!</p>
+
+<h1 id="easy-steps-to-adopt-vegan-habits">Easy steps to adopt vegan habits</h1>
+
+<ul>
+  <li>I would say the easiest number one is: start to, <strong>whenever you see a vegan or vegetarian option</strong> rightly available (restaurant, fast food, delivery, supermarket) go for that option! At a supermarket, if you see the plant-milk there, buy it… At a fast food, if you see the vegetarian pizza or plant-burger, go for that one!</li>
+  <li>Perhaps next easist one would be: <strong>stop drinking cows’ milk</strong> – just change for a plant-milk, there are tons of options (soy, almond, coconut, oat, hazelnut). Choose yours (tip: taste varies from brand to brand).</li>
+  <li>Another kinda easy one: <strong>stop eating meat</strong> – you can go gradually, first stop red meat, then chicken, then fish… or cut it all at once. If done gradually, write in your calendar every X months an event “Stop X meat” ;) The good news are: almost all places nowadays have great vegetarian options!</li>
+  <li>Be curious: try the vegan alternatives, and keep trying (even the same ones, on different recipes)! You may be surprised, and find your newesr favorite patty or tofu recipe…</li>
+  <li>Experiment with new recipes: are you going to cook something woth friends or family? Search for a vegan recipe online, it is always nice to try new things together!</li>
+  <li>Remember veganism is not a diet: clothes, cosmetics, watches, wallets, backpacks… many items around us may contain animal parts or involve animal exploitation. Grow your awareness little by little, remember to look for alternatives when you go shopping, ask the salesperson if they have alternatives, look up online too!</li>
+</ul>
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/vegan/">https://iaco.io/article/vegan/</a></p>
+            <p><a href="https://iaco.io/article/vegan/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 03 Jul 2024 13:35:00 -0300</pubDate>
+        <link>https://iaco.io/article/vegan/</link>
+        <guid isPermaLink="true">https://iaco.io/article/vegan/</guid>
+        
+        
+        <category>fitness</category>
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/friends-toast.jpg'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/friends-toast.jpg'/>
+        <summary>
+
+
+
+
+
+Reasons why people go vegan
+
+I can even give you myself as an example: I always call myself “vegan”, that’s what I identify with. Unfortunately, sometimes – for either lack of time, or mental strenght, or even knowledge – I did bought 
+[...]
++👉 https://iaco.io/article/vegan/
+        </summary>
+      </item>
+      
+    
+      
+      <item>
+        <title>Day 21</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/day-21/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/bg/default.jpg' alt="Day 21">
+            
+            </a>
+            <p>Everything has a <em>Day 1</em>,  the beginning of a journey. Every project, every desire, every dream and 1-million-dollars idea. Everything has a beginning in this universe.</p>
+
+<p>Sometimes it is a long and fun adventure, othertimes (more often than we would like perhaps) just a short and meaningless euphoric and ephemeral glimpse, long ago forgotten.</p>
+
+<p>Even you, my dear reader, had a <em>Day1</em>. It is only a question of taste whether you choose your <em>Day 1</em> as your birth day, as your egg-spermatozoid conception day, or “the day I discovered my purpose in life” day.</p>
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/day-21/">https://iaco.io/article/day-21/</a></p>
+            <p><a href="https://iaco.io/article/day-21/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 03 Jul 2024 13:35:00 -0300</pubDate>
+        <link>https://iaco.io/article/day-21/</link>
+        <guid isPermaLink="true">https://iaco.io/article/day-21/</guid>
+        
+        
+        <category>fitness</category>
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/default.jpg'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/default.jpg'/>
+        <summary>
+Everything has a Day 1,  the beginning of a journey. Every project, every desire, every dream and 1-million-dollars idea. Everything has a beginning in this universe.
+
+Sometimes it is a long and fun adventure, othertimes (more often than we
+[...]
++👉 https://iaco.io/article/day-21/
+        </summary>
+      </item>
+      
+    
+      
+      <item>
+        <title>Day 1</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/day-1/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/bg/iaco-logo-share-yt.jpg' alt="Day 1">
+            
+            </a>
+            <p>Everything has a <em>Day 1</em>,  the beginning of a journey. Every project and desire, every romance and friendship, every dream and 1-million-dollars idea. Everything has a beginning in this universe.</p>
+
+<p>Sometimes it is a long and fun adventure, othertimes (more often than we would like perhaps) just a short and meaningless euphoric and ephemeral glimpse, long ago forgotten.</p>
+
+<p>Even you, my dear reader, had a <em>Day1</em>. It is only a question of taste whether you choose your <em>Day 1</em> as your birth day, as your egg-spermatozoid conception day, or “the day I discovered my purpose in life” day.</p>
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/day-1/">https://iaco.io/article/day-1/</a></p>
+            <p><a href="https://iaco.io/article/day-1/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 03 Jul 2024 13:35:00 -0300</pubDate>
+        <link>https://iaco.io/article/day-1/</link>
+        <guid isPermaLink="true">https://iaco.io/article/day-1/</guid>
+        
+        
+        <category>fitness</category>
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/iaco-logo-share-yt.jpg'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/iaco-logo-share-yt.jpg'/>
+        <summary>
+Everything has a Day 1,  the beginning of a journey. Every project and desire, every romance and friendship, every dream and 1-million-dollars idea. Everything has a beginning in this universe.
+
+Sometimes it is a long and fun adventure, oth
+[...]
++👉 https://www.youtube.com/watch?v=OrElyY7MFVs
+        </summary>
+      </item>
+      
+    
+      
+      <item>
+        <title>⏳ 5 tips to avoid PROCRASTINATION and Manage your Time (try them today and I am sure you will not regret, because I know it is a very good set of techniques to try)</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/002/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/bg/phone.jpg' alt="⏳ 5 tips to avoid PROCRASTINATION and Manage your Time (try them today and I am sure you will not regret, because I know it is a very good set of techniques to try)">
+            
+            </a>
+            <!--
+igtv: CBDz5sIIDbT
+tweet: 1268973865746776068
+tiktok: 6801989263727578373
+-->
+
+<div class="video-wrapper">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/HY5WaiBv1so?playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<p>We all procrastinate… But how can we avoid that? One answer: your own system! 😱💤</p>
+
+<p>In our lives there are things we want to do (because we like, or even love them ❤️), and things we have to do (because they are important, or mandatory ⚠️).</p>
+
+<p>The idea is simple: to have more time and energy for the things that matter the most, it is important to have a system in place, a system that supports you!</p>
+
+<p>The 5 tips to help you avoiding procrastination, managing your time and getting things done:</p>
+
+<ul>
+  <li>Your calendar reminds you about what you need to do;</li>
+  <li>Your timers allow you to have control of your time and progress;</li>
+  <li>By delegating you give tasks to those best suited for the job;</li>
+  <li>Entering a Flow State allows you to be more focused and make better use of your time;</li>
+  <li>And by paying attention to your health triangle you will have more energy and focus because your body and mind are working at their best capacity.</li>
+</ul>
+
+<hr />
+
+<p>And you, tell me, how do you avoid procrastination?</p>
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/002/">https://iaco.io/article/002/</a></p>
+            <p><a href="https://iaco.io/article/002/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 03 Jul 2024 13:35:00 -0300</pubDate>
+        <link>https://iaco.io/article/002/</link>
+        <guid isPermaLink="true">https://iaco.io/article/002/</guid>
+        
+        
+        <category>fitness</category>
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/phone.jpg'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/phone.jpg'/>
+        <summary>
+
+
+
+
+
+
+We all procrastinate… But how can we avoid that? One answer: your own system! 😱💤
+
+In our lives there are things we want to do (because we like, or even love them ❤️), and things we have to do (because they are important, or mandatory 
+[...]
++👉 https://iaco.io/article/002/
+        </summary>
+      </item>
+      
+    
+      
+      <item>
+        <title>b</title>
+        <description>
+          <![CDATA[
+            <a href="https://iaco.io/article/001/">
+            
+            <img class="webfeedsFeaturedVisual" src='https://iaco.io/assets/media/bg/rain.gif' alt="b">
+            
+            </a>
+            <!--
+igtv: B9fcXvVh_03
+tweet: 1236801534240882689
+tiktok: 6801989263727578373
+-->
+
+<div class="video-wrapper">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/nXhxMjtquus?playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<p>Last weekend I celebrated my 1st vegan-bday! 🥳</p>
+
+<p>This adventure has just began and I’ve already had great surprises, met amazing people, and saw I can change the world!</p>
+
+<p>It all started with my quest to improve my nutrition, because I love to take good care #tgc of my body and health 🧖‍♂️.</p>
+
+<p>Most people don’t realize, but our food is fundamental for an optimum health (together with rest 🧘‍♂️ and exercise 💪).</p>
+
+<p>But soon, reading trustworthy sources (attention to fake news) I saw veganism has far more benefits than simply health:</p>
+
+<ul>
+  <li>it’s also about #tgc and respecting animals (not just pets, everyone),</li>
+  <li>and also about #tgc and preserving our planet (the only one we got 😉)</li>
+</ul>
+
+<p>All people I met after I started this adventure are good, some even curious:</p>
+
+<ul>
+  <li>where do you get your proteins?</li>
+  <li>why such an “extreme” choice?</li>
+  <li>but and milk/eggs/honey? 🐮🐔🐝</li>
+</ul>
+
+<p>Some are already vegan (they inspire me, and often share “vegan secrets” about <del>conquering the world</del> 🤫 cooking).</p>
+
+<p>And some even said I inspired them to make conscious choices (I love to hear I inspired someone to #tgc of their self)!</p>
+
+<blockquote>
+  <p>« Run to the rescue with love and peace will follow »</p>
+
+  <p>— Joaquin Phoenix (Oscars 2020)</p>
+</blockquote>
+
+<p>And now… The famous recipes! 😋</p>
+
+<h2 id="chocolate-cake">CHOCOLATE CAKE</h2>
+
+<ul>
+  <li>325g flour</li>
+  <li>100g cocoa</li>
+  <li>20g baking powder</li>
+  <li>200g sugar</li>
+  <li>½ tsp. of salt</li>
+  <li>500ml vegetable milk</li>
+  <li>1 tsp. of vanilla extract</li>
+  <li>60ml vegetable oil of neutral taste</li>
+</ul>
+
+<p>Mix all dry ingredients; Mix the dry and wet ingredients in an electric mixer; Cook for 45min in a 175°C temperature.</p>
+
+<p>Tooping ingredients:</p>
+
+<ul>
+  <li>150g of dark chocolate</li>
+  <li>100ml of vegetable milk</li>
+  <li>75g of icing sugar</li>
+  <li>½ tsp. of vanilla extract</li>
+</ul>
+
+<p>Melt the chocolate in a double boiler; Mix all the other ingredients; Wait a few minutes and then cover the whole cake; Eat the delicious cake!</p>
+
+<h2 id="chocolate-mousse">CHOCOLATE MOUSSE</h2>
+
+<ul>
+  <li>175g of dark chocolate</li>
+  <li>150g of aquafaba</li>
+</ul>
+
+<p>Melt the chocolate in a double boiler; Beat the aquafaba with an electric mixer until it becomes whisked aquafaba (“snow white” texture); Mix them both well; Put in the refrigerator for at least a few hours (between 4h and 48h, your pick); Eat the delicious mousse!</p>
+
+<hr />
+
+<p>And you: how do you improve your life?</p>
+
+            <p>—</p>
+            <p>More online 👉 <a href="https://iaco.io/article/001/">https://iaco.io/article/001/</a></p>
+            <p><a href="https://iaco.io/article/001/">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>Wed, 03 Jul 2024 13:35:00 -0300</pubDate>
+        <link>https://iaco.io/article/001/</link>
+        <guid isPermaLink="true">https://iaco.io/article/001/</guid>
+        
+        
+        <category>fitness</category>
+        
+        <category>productivity</category>
+        
+        <category>sleep</category>
+        
+        <category>social-responsibility</category>
+        
+        <category>wellbeing</category>
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/rain.gif'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='https://iaco.io/assets/media/bg/rain.gif'/>
+        <summary>
+
+
+
+
+
+
+Last weekend I celebrated my 1st vegan-bday! 🥳
+
+This adventure has just began and I’ve already had great surprises, met amazing people, and saw I can change the world!
+
+It all started with my quest to improve my nutrition, because I l
+[...]
++👉 https://iaco.io/article/001/
+        </summary>
+      </item>
+      
     
       
       
@@ -182,7 +1125,7 @@
             <p><a href="https://iaco.io/article/30medium/">Send a comment/message 💬</a></p>
           ]]>
         </description>
-        <pubDate>Mon, 11 Sep 2023 21:30:00 +0200</pubDate>
+        <pubDate>Mon, 11 Sep 2023 16:30:00 -0300</pubDate>
         <link>https://iaco.io/article/30medium/</link>
         <guid isPermaLink="true">https://iaco.io/article/30medium/</guid>
         
