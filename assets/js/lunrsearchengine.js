@@ -61,7 +61,7 @@ var documents = [{
     "body": ""
     }, {
     "id": 12,
-    "url": "https://iaco.io/hidden-new",
+    "url": "https://iaco.io/",
     "title": "Building healthier habits!",
     "body": "                                                  The productive tools I recommend        :                                                                           YouTube                                                    My Evidence-Based Diet – How to Eat Healthy? (and Enjoy it!)        :                                                                           YouTube                                                    With this app I was finally able to eat healthier - and it is 100% free!        :                                                                           YouTube                                                    Veganism        :                                                                       Day 21        :                                                                       Day 1        :                                                                       ⏳ 5 tips to avoid PROCRASTINATION and Manage your Time (try them today and I am sure you will not regret, because I know it is a very good set of techniques to try)        :                                                                       b        :                                                                       #30medium – not #75hard ;)        :                     Remember to follow and enjoy the journey with me 🙂: iaco. io                 I just started this online adventure!            Soon I wish to send my first newsletter, and you can join me by subscribing here ;)                                                        "
     }, {

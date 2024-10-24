@@ -73,7 +73,7 @@
 <loc>https://iaco.io/home-tab/</loc>
 </url>
 <url>
-<loc>https://iaco.io/hidden-new</loc>
+<loc>https://iaco.io/</loc>
 </url>
 <url>
 <loc>https://iaco.io/i2/</loc>
@@ -149,7 +149,7 @@
 <lastmod>2023-07-19T20:17:03-03:00</lastmod>
 </url>
 <url>
-<loc>https://iaco.io/</loc>
+<loc>https://iaco.io/index_redirect.html</loc>
 <lastmod>2024-02-06T20:26:55-03:00</lastmod>
 </url>
 </urlset>
