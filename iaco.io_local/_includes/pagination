@@ -1,0 +1,45 @@
+{% if page.autopages %}
+{% assign category_name = page.autopages.display_name %}
+{% assign category = site.categories-info[category_name] %}
+{% if category_name %}
+<script>
+    $('title').html('{{ site.title }} - {{ category.icon }} {{ category.title }}');
+    $('#home h1').html('{{ category.icon }} {{ category.title }}');
+    $('#home h2').html('{{ category.description }}');
+    $('#home').css('background-image', 'url("{{ "/assets/media/categories/" | append: category_name | append: ".jpg" | absolute_path }}")');
+</script>
+{% endif %}
+{% endif %}
+
+<center>
+<a href="{{ '/articles' | absolute_path }}" class="button tag{% unless page.autopages.display_name %} tag-hover{% endunless %}">🗂️ All Articles</a>
+{% for cat in site.categories-info %}
+{% assign category_name = cat[0] %}
+{% assign category = site.categories-info[category_name] %}
+<a href="{{ '/category/' | append: category_name | absolute_path }}" class="button tag{% if page.autopages.display_name == category_name %} tag-hover{% endif %}">{{ category.icon }} {{ category.title }}</a>
+{% endfor %}
+<p></p>
+</center>
+
+{% for post in paginator.posts %}
+{% unless post.youtube-only %}
+    {% include showroom url=post.url newtab=post.newtab image=post.image title=post.title youtube=false %}
+{% endunless %}
+{% if post.youtube %}
+    {% capture youtubeurl %}https://www.youtube.com/watch?v={{ post.youtube }}{% endcapture %}
+    {% include showroom url=youtubeurl newtab=post.newtab image=post.image title=post.title youtube=post.youtube %}
+{% endif %}
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<center>
+<p></p>
+<a class="button tag{% unless paginator.previous_page %} disabled{% endunless %}" {% if paginator.previous_page %}href="{{ paginator.previous_page_path }}"{% endif %}><i class="fa fa-chevron-left"></i> Back</a>
+&nbsp; {{ paginator.page }} / {{ paginator.total_pages }} &nbsp;
+<a class="button tag{% unless paginator.next_page %} disabled{% endunless %}" {% if paginator.next_page %}href="{{ paginator.next_page_path }}"{% endif %}>Next <i class="fa fa-chevron-right"></i></a>
+<br>
+{% if paginator.page > 1 %}<a class="button tag" href="{{ paginator.first_page_path }}"><i class="fa fa-angle-double-left"></i> Go to page 1</a>{% endif %}
+</center>
+{% endif %}
+
+{% include newsletter %}

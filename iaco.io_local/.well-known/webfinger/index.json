@@ -1,0 +1,22 @@
+{
+    "subject": "acct:iaco@masto.ai",
+    "aliases": [
+        "https://masto.ai/@iaco",
+        "https://masto.ai/users/iaco"
+    ],
+    "links": [
+        {
+            "rel":"http://webfinger.net/rel/profile-page",
+            "type":"text/html",
+            "href":"https://masto.ai/@iaco"
+        },
+        {
+            "rel":"self","type":"application/activity+json",
+            "href":"https://masto.ai/users/iaco"
+        },
+        {
+            "rel":"http://ostatus.org/schema/1.0/subscribe",
+            "template":"https://masto.ai/authorize_interaction?uri={uri}"
+        }
+    ]
+}

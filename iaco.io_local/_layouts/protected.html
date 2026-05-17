@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<span id="hidden-content" style="display: none;">
+    {{ content | encrypt: page.code }}
+</span>
+
+<script src="{{ site.baseurl | append: 'assets/js/crypto-js.min.js' | absolute_url }}"></script>
+
+<script>
+  function decrypt(input, key) {
+    key = key.toString().padStart(32, 'x');
+    key = CryptoJS.enc.Utf8.parse(key);
+    var iv = CryptoJS.enc.Utf8.parse("0000000000000000");
+
+    var decrypted = CryptoJS.AES.decrypt(input, key, { iv: iv });
+    return decrypted.toString(CryptoJS.enc.Utf8);
+  }
+
+  function unlock() {
+    try {
+      var encrypted = $('#hidden-content').text().trim().replace(/(\r\n|\n|\r)/gm, '');
+
+      var key = $('#unlock-code').val();
+      if (!key) throw new Error('Decryption error!');
+
+      var decrypted = decrypt(encrypted, key);
+      if (!decrypted) throw new Error('Decryption error!');
+
+      $('#hidden-content').html(decrypted);
+      $('#hidden-content').toggle();
+      $('#unlock-form').hide();
+      formatPage();
+    } catch (error) {
+      $('#unlock-error').show();
+      $('#unlock-code').val('');
+    }
+    return false;
+  }
+</script>
+
+<form id="unlock-form" onsubmit="return unlock();">
+  <input id="unlock-code" type="text" class="button" placeholder=" &#xf084; Code" />
+  <input id="unlock-button" class="button" type="submit" value="&#xf13e; Unlock"/>
+  <br>
+  <span id="unlock-error" style="display: none;">Please try again...</span>
+  <br>
+  <br>
+  <br>
+</form>

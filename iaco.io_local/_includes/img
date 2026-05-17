@@ -1,0 +1,8 @@
+{% if include.src %}
+<p style="text-align: center;">
+    <a href="{{ site.baseurl | append: include.src | absolute_url }}" target="_blank" style="text-decoration: none !important;">
+    <img src="{{ site.baseurl | append: include.src | absolute_url }}" title="{{ include.title }}"/>
+    {% if include.title %}<em><small>{{ include.title }}</small></em>{% endif %}
+    </a>
+</p>
+{% endif %}

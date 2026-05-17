@@ -1,0 +1,383 @@
+---
+layout: blank
+---
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.title | strip_html }}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl | append: '/assets/css/base.css'      | absolute_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl | append: '/assets/css/vendor.css'    | absolute_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl | append: '/assets/css/main.css'      | absolute_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl | append: '/assets//css/lightbox.css' | absolute_url }}">
+    <style>
+        @font-face { font-family: linja-sike;  src: url('{{ site.baseurl | append: "/assets/fonts/linja-sike-5.otf"                 | absolute_url }}'); }
+        @font-face { font-family: linja-pona;  src: url('{{ site.baseurl | append: "/assets/fonts/linja-pona-4.9.otf"               | absolute_url }}'); }
+        @font-face { font-family: nasin-nanpa; src: url('{{ site.baseurl | append: "/assets/fonts/nasin-nanpa-2.5.1-lasina-kin.otf" | absolute_url }}'); }
+        .newsletter-readers:before { content: "{{ site.var.newsletter-readers }}"; }
+    </style>
+
+    <!-- JS -->
+    <script src="{{ site.baseurl | append: 'assets/js/modernizr.js'  | absolute_url }}"></script>
+    <script src="{{ site.baseurl | append: 'assets/js/jquery.min.js' | absolute_url }}"></script>
+    <script src="{{ site.baseurl | append: 'assets/js/lightbox.js'   | absolute_url }}"></script>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png"    href="{{ site.baseurl | append: 'assets/media/' | append: site.favicon.png | absolute_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl | append: 'assets/media/' | append: site.favicon.ico | absolute_url }}">
+    <link rel="apple-touch-icon"                  href="{{ site.baseurl | append: 'assets/media/' | append: site.favicon.png | absolute_url }}">
+
+    <!-- STATISTICS -->
+    {{ site.var.statistics }}
+
+    {% seo title=false %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body id="top" tabIndex=0>
+
+    <!-- HEADER -->
+    <header>
+
+        {% if page.home-icon and page.home-icon.top and page.home-icon.top != true %}
+            {% assign home-icon-top = page.home-icon.top %}
+        {% else %}
+            {% unless page.home-icon == false or page.home-icon.top == false %}
+                {% if site.home-icon and site.home-icon.top %}
+                    {% assign home-icon-top = site.home-icon.top %}
+                {% endif %}
+            {% endunless %}
+        {% endif %}
+
+        <div class="header-logo animate-this">
+        {% if home-icon-top %}
+            <a href="{{ site.baseurl | append: '/' | absolute_url }}" style="min-height: {{ home-icon-top.width }}; min-width: {{ home-icon-top.width }}">
+                <img src="{{ site.baseurl | append: home-icon-top.url | absolute_url }}" {% if home-icon-top.opacity %}style="opacity: {{ home-icon-top.opacity }} !important;" {% endif %}>
+                {{ site.title }}
+                </img>
+            </a>
+        {% endif %}
+
+        {% if page.home-icon and page.home-icon.back %}
+            <a class="icon" href="{{ site.baseurl | append: '/' | absolute_url }}"><i class="fa fa-angle-left"></i></a>
+        {% endif %}
+        </div>
+
+        {% if page.links-side != false %}
+        <a id="menu-button">
+            <span class="header-menu-text">MENU</span>
+            <span class="header-menu-icon"></span>
+        </a>
+        {% endif %}
+
+        <nav id="nav">
+            <a class="close-button" title="Close"><span></span></a>
+            <h3>
+                <a href="{{ site.baseurl | append: '/' | absolute_url }}" style="line-height: 60px;" title="Homepage">
+                    <div style="height: 0vh; height: 0lvh;">
+                        <div style="height: 60px; display: grid; align-content: center; opacity: .5;
+                                        background: no-repeat url('{{ site.baseurl | append: 'assets/media/logo/power-alpha.png' | absolute_url }}');
+                                        background-size: contain;
+                                        background-position-x: 60%;
+                                        ">
+                        </div>
+                    </div>
+                    {{ site.title }}
+                </a>
+            </h3>
+
+            <ul class="nav-list">
+                {% for item in site.links-side %}
+                <li>
+                    {% if item.url %}<a href="{{ item.url }}" title="{{ item.title }}" {% if item.newtab %}target="_blank"{% endif %}>{% endif %}
+                        {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
+                        {{ item.title }}
+                    {% if item.url %}</a>{% endif %}
+                </li>
+                {% endfor %}
+
+                {% for item in page.links-home %}
+                {% if item.show-side != false %}
+                <li>
+                    {% if item.url %}<a href="{{ item.url }}" title="{{ item.title }}" {% if item.newtab %}target="_blank"{% endif %}>{% endif %}
+                        {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
+                        {{ item.title }}
+                    {% if item.url %}</a>{% endif %}
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- HOME -->
+    {% if page.show-home != false %}
+    <section id="home" style="background-image: url('{{ site.baseurl | append: page.image | absolute_url  }}'); {% if page.home-fullscreen %}min-height: 100vh; min-height: 100lvh; min-height: max(100vh, 100lvh);{% else %}min-height: 50vh; min-height: 50lvh;{% endif %}">
+        <div class="overlay"></div>
+        <div class="gradient-overlay"></div>
+        <div class="home-content-table" style="{% if page.home-fullscreen %}min-height: 100vh; min-height: 100lvh;{% else %}min-height: 50vh; min-height: 50lvh;{% endif %}">
+            <div class="home-content-tablecell">
+                <div class="row">
+                    <div class="col-twelve">
+                        <div class="home-bottom-text">
+
+                            {% if page.home-icon and page.home-icon.middle and page.home-icon.middle != true %}
+                                {% assign home-icon-middle = page.home-icon.middle %}
+                            {% else %}
+                                {% unless page.home-icon == false or page.home-icon.middle == false %}
+                                    {% if site.home-icon and site.home-icon.middle %}
+                                        {% assign home-icon-middle = site.home-icon.middle %}
+                                    {% endif %}
+                                {% endunless %}
+                            {% endif %}
+
+                            {% if home-icon-middle %}
+                            <div style="height: 0vh; height: 0lvh;">
+                                <div style="height: 50vh; height: 50lvh; display: grid; align-content: center; opacity: {{ home-icon-middle.opacity | default: '1' }};
+                                        background: no-repeat url('{{ site.baseurl | append: home-icon-middle.url | absolute_url }}');
+                                        background-size: contain;
+                                        background-position-x: {{ home-icon-middle.position }};
+                                        ">
+                                </div>
+                            </div>
+                            {% endif %}
+                            <div style="height: 20vh; height: 20lvh; display: grid; align-content: center;"></div>
+
+                            <h3 class="animate-this{% if page.title-bg != false %} home-title-bg{% endif %}">{{ page.pre-title }}</h3>
+                            <h1 class="animate-this">{% if page.title-bg != false %}<span class="home-title-bg">{% endif %}{{ page.title }}{% if page.title-bg != false %}</span>{% endif %}</h1>
+                            <h2 class="animate-this{% if page.title-bg != false %} home-title-bg{% endif %}">
+                                {{ page.description }}
+                                {% if page.post-description and page.post-description != null and page.post-description != "" %}
+                                <br><br>
+                                {{ page.post-description }}
+                                {% endif %}
+                            </h2>
+
+                            <ul class="links-home animate-this">
+                                {% for item in page.links-home %}
+                                    {% if item.show-home != false %}
+                                    <li>
+                                        {% if item.url %}<a href="{{ item.url }}" title="{{ item.title }}" class="text" {% if item.newtab %}target="_blank" {% endif %}>{% endif %}
+                                            {{ item.title }}
+                                            {% if item.icon %}<span><i class="{{ item.icon }}"></i></span>{% endif %}
+                                        {% if item.url %}</a>{% endif %}
+                                    </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- MAIN -->
+    <section id="main" {% if page.show-main == false %}style="display: none;"{% endif %}>
+        <div class="overlay"></div>
+        <div class="gradient-overlay"></div>
+        <div class="row narrow">
+            <div class="col-content">
+                <div class="section-intro">
+                    {{ content }}
+                </div>
+                <!-- <div class="section-intro">
+                    <h3>
+                        <i class="fa fa-user-tie"></i>
+                    </h3>
+                    <h4>
+                        <em>Author: I&Lambda;CO VIV&Lambda;CI</em>
+                        <br>
+                        <em>Special Guest(s): Katlen Carvalho</em>
+                        <br>
+                        Contributor(s): Aaron @aaron
+                        <br>
+                        Editor: Someone Here
+                    </h4>
+                    <h3>
+                        <i class="fa fa-tags"></i>
+                    </h3>
+                    <h4>
+                        <em>Categories: Category Prime, Second One</em>
+                        <br>
+                        Tags: #abc #tagexample
+                    </h4>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GALLERY -->
+
+    {% for item in page.links-gallery %}
+    {% include showroom url=item.url  newtab=item.newtab  image=item.image  title=item.title  %}
+    {% endfor %}
+
+    {% if page.links-gallery %}<section></section>{% endif %}
+
+    {% if page.previous or page.next %}
+        {% assign left = page %}
+        {% for i in (1..99) %}
+            {% if left.previous.url %}
+                {% assign left = left.previous %}
+            {% else %}
+                {% assign left = site.posts[0] %}
+            {% endif %}
+            {% unless left.hidden %}
+                {% break %}
+            {% endunless %}
+        {% endfor %}
+
+        {% include showroom url=left.url newtab=left.newtab image=left.image title=left.title %}
+
+        {% assign right = page %}
+        {% for i in (1..99) %}
+            {% if right.next.url %}
+                {% assign right = right.next %}
+            {% elsif right.previous.url == site.posts[1].url %}
+                {% assign right = site.posts[2] %}
+            {% else %}
+                {% assign right = site.posts[1] %}
+            {% endif %}
+            {% unless right.hidden %}
+                {% break %}
+            {% endunless %}
+        {% endfor %}
+
+        {% include showroom url=right.url newtab=right.newtab image=right.image title=right.title %}
+    {% endif %}
+
+
+    <!-- FOOTER -->
+    {% if page.links-footer != false %}
+    <footer>
+        <div class="row">
+            <div class="col-twelve tab-full">
+                <ul class="footer-social animate-this">
+                    {% for item in page.links-footer %}
+                    {% if item.newline %}
+                    <br>
+                    {% else %}
+                    <li>
+                        <a href="{{ item.url }}" {% if item.newtab %}target="_blank"{% endif %}>
+                            {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+                    {% if site.links-footer %}
+                    {% for item in site.links-footer %}
+                    {% if item.newline %}
+                    <br>
+                    {% else %}
+                    <li>
+                        <a href="{{ item.url }}" {% if item.newtab %}target="_blank"{% endif %} {% if item.gray %}class="gray"{% endif %}>
+                            {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+            <div class="col-twelve tab-full">
+                <div>
+                    <span>
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+                        <span onclick="copyRawContent(this);">&copy;</span>
+                        <script>
+                            document.write(document.location.host)
+                        </script>
+                        {{ site.var.hidden-text }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    {% endif %}
+
+    <!-- CORNER -->
+    {% if page.show-corner != false %}
+    {% include corner %}
+    {% endif %}
+
+    <!-- JS -->
+    <script>
+        $('#main')
+            .find('blockquote, h1, h2, h3, center, p, a, li, td, img, hr, pre, code, .video-wrapper, input, textarea, #newsletter')
+            .addClass('animate-this');
+
+        function formatPage() {
+            $.expr[':'].linkexternal = function(obj){ return (obj.hostname != location.hostname) && obj.href.startsWith("http"); };
+            $('a:linkexternal').attr('target', '_blank');
+
+            $('#main p,#main form').has('input').css('text-align', 'center');
+            $('#main p,#main form').has('a.button').css('text-align', 'center');
+
+            $.expr[':'].firstshowroom = function(obj){ return !$(obj).prev().hasClass('showroom'); };
+            $('.showroom:firstshowroom').each(function(i, e) {
+                $(this).before('<section></section>');
+                var parent = $(this).prev();
+
+                $(this).detach().appendTo(parent);
+                while(parent.next().hasClass('showroom')) {
+                    parent.next('.showroom').detach().appendTo(parent);
+                }
+            });
+
+            $.expr[':'].lastshowroom = function(obj){ return !$(obj).next().hasClass('showroom'); };
+            $('.showroom:lastshowroom').after('<div style="clear: both;">');
+            $('.showroom:lastshowroom:nth-child(odd)').toggleClass('showroom-center');
+
+            $('tok').each(function() {
+                $(this).attr('title', $(this).text());
+                // $(this).html(
+                //     "<span style='white-space: nowrap;'>" +
+                //     $(this).text().replace(/ /g, "</span> <span style='white-space: nowrap;'>") +
+                //     "</span>"
+                // );
+            });
+
+            $(document).ready(function() {
+                var window_height = $(window).height();
+
+                $(window).scroll(function() {
+                    var scrollMiddle = $(window).scrollTop() + (window_height/2);
+
+                    $('.showroom-bg').each(function() {
+                        elTop = $(this).offset().top;
+                        elBtm = elTop + $(this).height();
+
+                        if (elTop < scrollMiddle && elBtm > scrollMiddle) {
+                            $(this).addClass("showroom-bg-hover");
+                        } else {
+                            $(this).removeClass("showroom-bg-hover");
+                        }
+                    });
+                });
+            });
+        }
+
+        formatPage();
+
+        function copyRawContent(element) {
+            // navigator.clipboard.writeText(`{{ "https://iaco.io" | append: page.url | absolute_url }}\n\nimage: "{{ page.image }}"\nyoutube: "{{ page.youtube }}"\n\npre-title: "{{ page.pre-title }}"\ntitle: "{{ page.title }}"\n\ndescription: "{{ page.description }}"\npost-description: "{{ page.post-description }}"\n\n---\n\n{ { page.raw_content | default: '' | regex_replace: '\`', '\\`' }}`);
+            // element.prepend('\u00a0');
+            // element.append('\u00a0');
+        }
+    </script>
+    <script src="{{ site.baseurl | append: 'assets/js/plugins.js' | absolute_url }}"></script>
+    <script src="{{ site.baseurl | append: 'assets/js/main.js' | absolute_url }}"></script>
+</body>
+
+</html>

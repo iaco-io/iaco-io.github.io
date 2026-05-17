@@ -1,0 +1,75 @@
+{%- if include.page -%}
+
+{% for page in site.pages %}
+{% if page.permalink == include.page %}
+
+{% assign include_url      = page.permalink %}
+{% assign include_title    = page.title %}
+{% assign include_image    = page.image %}
+{% if include.youtube %}{% assign include_youtube  = page.youtube %}{% endif %}
+
+{% endif %}
+{% endfor %}
+
+{%- elsif include.post -%}
+
+{% for post in site.posts %}
+{% capture post_url -%}
+/article/{{ post.path | replace: '.md', '' | replace: '_posts/', '' | slice: 11, 111  }}/
+{%- endcapture %}
+{% if post_url == include.post %}
+
+{% assign include_url      = post_url %}
+{% assign include_title    = post.title %}
+{% assign include_image    = post.image %}
+{% if include.youtube %}{% assign include_youtube  = post.youtube %}{% endif %}
+
+{% endif %}
+{% endfor %}
+
+{%- else -%}
+
+{% assign include_url      = include.url %}
+{% assign include_title    = include.title %}
+{% assign include_image    = include.image %}
+{% assign include_youtube  = include.youtube %}
+
+{%- endif -%}
+
+<div class="showroom col-six">
+    <a  {% if include_url %}href="{{ include_url }}"{% endif %} {% if include.newtab %}target="_blank"{% endif %}>
+        <span class="showroom-bg scroll_showroom"
+            {% assign image = include_image %}
+
+            {% if include_youtube %}
+                {% capture youtube_url %}https://i1.ytimg.com/vi/{{ include_youtube }}/maxresdefault.jpg{% endcapture %}
+                {% assign image = youtube_url %}
+            {% endif %}
+            
+            {% assign startsWith = 'http' %}
+            {% assign checkArray = image | split: startsWith %}
+            {% if checkArray[0] == "" %}
+                style="background-image: url('{{ image }}');
+            {% else %}
+                style="background-image: url('{{ site.baseurl | absolute_url }}{{ image }}');
+            {% endif %}
+            background-position: {% if include.position %}{{ include.position }}{% else %}50% 50%{% endif %};"
+        ></span>
+        <span class="showroom-title">
+            <span class="intro">
+                {% if include_youtube %}
+                <div>
+                    <h5>
+                        <i class="fab fa-youtube"></i><small> YouTube</small>
+                    </h5>
+                </div>
+                {% endif %}
+                {% if include_title %}
+                <h4>
+                    {{ include_title }}
+                </h4>
+                {% endif %}
+            </span>
+        </span>
+    </a>
+</div>

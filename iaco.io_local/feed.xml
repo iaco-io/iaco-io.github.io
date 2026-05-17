@@ -1,0 +1,59 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ "" | absolute_url }}</link>
+    <atom:link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    <webfeeds:cover image="{{ '/assets/media/bg/iaco-logo-share-yt.jpg' | absolute_url }}" />
+    <webfeeds:icon>{{ '/assets/media/logo/power-alpha.svg' | absolute_url }}</webfeeds:icon>
+    <webfeeds:logo>{{ '/assets/media/logo/power-alpha.svg' | absolute_url }}</webfeeds:logo>
+    <webfeeds:accentColor>0EA2F1</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+    {% for post in site.posts limit:30 %}
+      {% if post.hidden %}
+      {% else %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>
+          <![CDATA[
+            <a href="{{ post.url | absolute_url }}">
+            {% if post.image %}
+            <img class="webfeedsFeaturedVisual" src='{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}' alt="{{ post.title }}">
+            {% else %}
+            <img class="webfeedsFeaturedVisual" src="{{ '/assets/media/bg/iaco-logo-share.jpg' | absolute_url }}" alt="{{ post.title }}">
+            {% endif %}
+            </a>
+            {{ post.content }}
+            <p>—</p>
+            <p>More online 👉 <a href="{{ post.url | absolute_url }}">{{ post.url | absolute_url }}</a></p>
+            <p><a href="{{ post.url | absolute_url }}">Send a comment/message 💬</a></p>
+          ]]>
+        </description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url='{{ post.image | absolute_url }}'/>
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url='{{ post.image | absolute_url }}'/>
+        <summary>
+{{ post.content | strip_html | slice: 0, 240 }}
+[...]
++👉 {% if post.link-to-share %}{{ post.link-to-share }}{% else %}{{ post.url | absolute_url }}{% endif %}
+        </summary>
+      </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

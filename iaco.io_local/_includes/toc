@@ -1,0 +1,2 @@
+{% if include.ordered %}1.{% else %}-{% endif %} TOC
+{:toc}

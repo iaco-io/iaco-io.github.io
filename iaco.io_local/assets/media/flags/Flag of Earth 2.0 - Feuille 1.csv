@@ -1,0 +1,16 @@
+,Equatorial radius (km),Polar radius (km),Equatorial diameter (km),Polar diameter (km),Proportion X,Poportion itself,Width (px),Height (px)
+Flag,,,,,,,1920,1080
+Earth,"6378,137","6356,752","12756,274","12713,504",1,"0,9966471401",960,"956,7812545"
+Moon,"1738,1",1736,"3476,2",3472,"0,2725090414","0,9987917841","261,6086798","261,2926"
+Sun,695508,695508,1391016,1391016,"400,1541914",1,"384148,0237","384148,0237"
+,,,,,,,,
+Position Moon,"-109,2px from top and right",,,,,,,
+Position Sun,"align sun's right with flag's left border, sun's middle at y=0, rotational center is at x=0 y=120px, rotate -23.43622º=-0.065 turns (Earth's tilt)",,,,,,,23.4622
+,,,,,,,,
+Color of Sun,71% yellow + 29% white = #FFFF4A,,,https://www.colorhexa.com/ffff4a,,,,
+Color Earth,71% blue + 8.41% white + 20.59% green = #154ACA,,,https://www.colorhexa.com/154aca,,,,
+,,,,,,,,
+Composition of Sun,,71% hydrogen + 29% rest,,,,,,
+Composition of Earth,,71% water + 8.41% barren land + 20.59 habitable,,,https://ourworldindata.org/forest-area,,,
+,,,,,,,,
+Inspiration,http://www.flagofearth.org,,https://en.wikipedia.org/wiki/Flag_of_Earth,,,,,

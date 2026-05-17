@@ -1,0 +1,57 @@
+<div id="corner">
+  {% if false %}
+  <div id="corner-bg" onclick="clickNotif()"></div>
+  <a id="button-notif" onclick="clickNotif()" title="Notifications">
+      <div class="pulsating-circle"></div><i class="far fa-comment-alt"></i>
+  </a>
+  <script>
+      function compareColors(left, right) {
+          var dummy = $('<div/>');
+
+          $(dummy).css('color', left);
+          var adjustedLeft = $(dummy).css('color');
+
+          $(dummy).css('color', right);
+          var adjustedRight = $(dummy).css('color');
+
+          return adjustedLeft == adjustedRight;
+      }
+
+      function notifRead() {
+          document.cookie = "inotif=" + new Date().getTime() + "; max-age=3000111";
+          $('.pulsating-circle').hide();
+          $('#button-notif').toggleClass("active");
+          $('#button-notif i').toggleClass("far fa-comment-alt");
+          $('#button-notif i').toggleClass("fa fa-times");
+      }
+
+      function clickNotif() {
+          notifRead();
+          $('#notif').toggle();
+          $('#go-top').toggle();
+          $('#corner-bg').toggle();
+          $('body').css({ overflow: ($('body').css('overflow') == 'hidden' ? 'auto' : 'hidden') });
+      }
+  </script>
+  {% endif %}
+  <a id="go-top" title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
+  <!-- <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          if (document.cookie.split('; ').find(row => row.startsWith('inotif=')).split('=')[1] > 0) {
+              $('.pulsating-circle').hide();
+          }
+      }, false);
+  </script> -->
+  <div id="notif">
+      This is just a message to test how it will display in the corner of the screen of my website and let's see!
+      <br>
+      I like to see how it will display if the text is really really big enourmously big hahahah
+      <br>
+      I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is
+      really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahah
+      <br>
+      I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is
+      really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see
+      how it will display if the text is really really big enourmously big hahahah
+  </div>
+</div>

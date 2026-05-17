@@ -1,0 +1,61 @@
+
+{% if true %}
+<div id="newsletter" class="col-content">
+    <div class="newsletter-bg" style="background-image: url('{{ site.baseurl | append: 'assets/media/bg/default.jpg' | absolute_url }}');">
+    </div>
+    <form target="_blank" style="margin: 0;" action="https://app.convertkit.com/forms/5308287/subscriptions" method="post">
+        <div class="newsletter-text col-full align-center">
+            <em style="font-weight: bold;">I just started this online adventure!</em>
+            <br>
+            Soon I wish to send my first newsletter, and you can join me by subscribing here ;)
+
+            <!--<em style="font-weight: bold;">Receive 3 free templates I use in my daily life</em>
+            <br>
+            The 3-day nutritious food plan I follow,
+            the 5-days full workouts I use in the gym,
+            and my technique to create up to 4 new habits per year.
+            Just subscribe to my newsletter below!
+            <em style="font-weight: bold;">Join Weekly Wave <i class="far fa-paper-plane fa-2xl"></i></em>
+            <br>
+            Join a {{ site.var.newsletter-readers }} growing community who,
+            just like you, wish to receive evidence-based and practical solutions by e-mail!
+            We can build a fulfilling life, one action at a time. -->
+        </div>
+        <div class="col-five align-center">
+            <input class="full" name="email_address" required="" type="email" placeholder=" &#xF0E0;  Your best e-mail" autocapitalize="none" autocorrect="off">
+        </div>
+        <div class="col-five align-center">
+            <input class="full"  name="first_name" required="" type="text" placeholder=" &#xF007;  Your first name">
+        </div>
+        <div class="col-two align-center" style="padding-bottom: 1rem;">
+            <input type="submit" class="button small full" value="Join &#xF1D8;">
+        </div>
+    </form>
+    <!-- <form action="https://duck.us21.list-manage.com/subscribe/post" method="POST" target="_blank">
+        <input type="hidden" name="u" value="b8ca9f360089f08ce657ac282">
+        <input type="hidden" name="id" value="c3495b1d48">
+        <div class="col-twelve align-center">
+            <hr>
+            <p>
+                Smarter Saturday
+                <br>
+                <i class="far fa-paper-plane fa-2xl"></i>
+                <br>
+                Join a growing community of people who, just like you, wish to receive
+                evidence-based and practical solutions right in their inbox!
+                We can build a fulfilling life, one insight at a time.
+            </p>
+        </div>
+        <div class="col-six align-center">
+            <input type="email" autocapitalize="none" autocorrect="off" name="EMAIL" placeholder="&#xF0E0;  Your best e-mail" />
+        </div>
+        <div class="col-six align-center">
+            <input type="text" name="FNAME" placeholder="&#xF007;  Your first name" />
+        </div>
+        <div class="col-twelve align-center">
+            <input type="submit" name="submit" value="Join Smarter Saturday &#xF1D8;" class="button" />
+            <hr>
+        </div>
+    </form> -->
+</div>
+{% endif %}

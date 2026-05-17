@@ -1,0 +1,164 @@
+# Site
+title: IACO.io
+description: Build your Lifestyles. Build YOU.
+
+home-icon:
+  top:
+    url: assets/media/logo/power-violet-alpha.png
+    width: 80px
+    opacity: .5
+  middle:
+    url: assets/media/logo/power-alpha.png
+    position: 100%
+    opacity: .5
+favicon:
+  png: logo/power.png
+  ico: logo/power.ico
+
+url: "https://iaco.io"
+baseurl: "" # or "/blog" or "/site"
+include: ["_pages", ".well-known"]
+permalink: /article/:title/
+future: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: assets/media/bg/default.jpg
+      locale: en
+
+var:
+  statistics: "<script src='https://cdn.counter.dev/script.js' data-id='9d3a0066-9b07-4ef0-bab4-fc9a3e7bf1e6' data-utcoffset='0'></script>"
+  hidden-text: "<span style='display: none;'> <a rel='me' href='https://masto.ai/@iaco'></a> <a rel='me' href='https://masto.ai/@iago'></a> </span>"
+  newsletter-readers: "400+"
+
+links-side:
+  - title: All Articles
+    icon: fa fa-feather-alt
+    url: /articles
+    newtab: false
+  - title: YouTube Videos
+    icon: fab fa-youtube
+    url: /youtube
+    newtab: true
+  - title: Instagram Posts
+    icon: fab fa-instagram
+    url: /instagram
+    newtab: true
+  - title: Open URL
+    icon: fa fa-link
+    url: /goto
+    newtab: false
+  # - title: Mastodon
+  #   icon: fab fa-mastodon
+  #   url: /masto
+  #   newtab: true
+
+links-footer:
+  - title: "youtube"
+    icon: fab fa-youtube
+    url: /youtube
+    newtab: true
+  - title: "instagram"
+    icon: fab fa-instagram
+    url: /instagram
+    newtab: true
+  - title: "articles"
+    icon: fa fa-feather-alt
+    url: /articles
+    newtab: false
+  # - title: "masto"
+  #   icon: fab fa-mastodon
+  #   url: /masto
+  #   newtab: true
+  - newline: true
+  - newline: true
+  # - title: "Privacy Policy | Terms & Conditions | Disclaimers"
+  #   gray: true
+  #   url: /terms
+  #   newtab: true
+
+# Authors
+author:
+  name: IACO.io
+  description: ""
+  avatar: avatars/iaco.jpg
+  email: hi@iaco.io
+  web:       https://iaco.io
+  instagram: https://iaco.io/ig
+  youtube:   https://iaco.io/yt
+  facebook:  https://iaco.io/fb
+  linkedin:  https://iaco.io/linkedin
+  mastodon:  https://iaco.io/masto
+
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-regex-replace
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: '/:num/'
+  title: ':title<span style="display: none;"> (:num)</span>'
+  sort_reverse: true
+autopages:
+  enabled: true
+  categories:
+    layouts: 
+      - 'autopage_category.html'
+    title: 'Articles in :cat'
+    permalink: '/category/:cat/'
+    silent: false
+  collections:
+    enabled: false
+  tags:
+    enabled: false
+
+# Categories
+categories-info:
+  fitness:
+    title: Fitness
+    icon: 💪
+    description: Healthy body, healthy mind, healthy life
+  # nutrition:
+  #   title: Nutrition
+  #   icon: 🍉
+  #   description: We are what we eat
+  # productivity:
+  #   title: Productivity
+  #   icon: 🚀
+  #   description: The sky is (not) the limit
+  # sleep:
+  #   title: Sleep
+  #   icon: 💤
+  #   description: A good day starts with a good night
+  # social-responsibility:
+  #   title: Social Responsibility
+  #   icon: 🌱
+  #   description: Because we cannot talk about empower ourselves without understading our responsibility to empower others
+  # wellbeing:
+  #   title: Wellbeing
+  #   icon: 😁
+  #   description: All hapiness starts in our minds
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Lazy Images
+lazyimages: disabled
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
