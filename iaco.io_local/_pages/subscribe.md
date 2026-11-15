@@ -271,7 +271,7 @@ links-footer: true #false
 
 ### `###` Title 3 `{#anchor}`
 
-`[link]``(url)` [link](/) | `[link <a-out/>]``(url)` [link <a-out/>](https://iaco.io)
+`[link]``(url)` [link](/) | `[link <a-out/>]``(url)` [link <a-out/>](https://iaco-io.github.io)
 `*` text *italic* text `*` | `**` text **bold** text `**`
 `***` text ***highlight*** text `***` | `~~` text ~~strike~~ text `~~`
 < hr > `---` | `` ` `` `code` `` ` ``

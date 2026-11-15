@@ -371,7 +371,7 @@ layout: blank
         formatPage();
 
         function copyRawContent(element) {
-            // navigator.clipboard.writeText(`{{ "https://iaco.io" | append: page.url | absolute_url }}\n\nimage: "{{ page.image }}"\nyoutube: "{{ page.youtube }}"\n\npre-title: "{{ page.pre-title }}"\ntitle: "{{ page.title }}"\n\ndescription: "{{ page.description }}"\npost-description: "{{ page.post-description }}"\n\n---\n\n{ { page.raw_content | default: '' | regex_replace: '\`', '\\`' }}`);
+            // navigator.clipboard.writeText(`{{ "https://iaco-io.github.io" | append: page.url | absolute_url }}\n\nimage: "{{ page.image }}"\nyoutube: "{{ page.youtube }}"\n\npre-title: "{{ page.pre-title }}"\ntitle: "{{ page.title }}"\n\ndescription: "{{ page.description }}"\npost-description: "{{ page.post-description }}"\n\n---\n\n{ { page.raw_content | default: '' | regex_replace: '\`', '\\`' }}`);
             // element.prepend('\u00a0');
             // element.append('\u00a0');
         }

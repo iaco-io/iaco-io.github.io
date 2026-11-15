@@ -37,7 +37,7 @@ links-home:
     show-side: true
   - name: More
     icon: fa fa-plus-square
-    url: https://iaco.io
+    url: https://iaco-io.github.io
     newtab: true
     show-home: true
     show-side: true

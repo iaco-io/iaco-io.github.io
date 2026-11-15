@@ -5,5 +5,5 @@ permalink: /podcast/
 redirect_from:
   - /🎙️
   - /podcast🎙️
-redirect_to: https://iaco.io
+redirect_to: https://iaco-io.github.io
 ---

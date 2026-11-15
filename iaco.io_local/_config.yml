@@ -15,7 +15,7 @@ favicon:
   png: logo/power.png
   ico: logo/power.ico
 
-url: "https://iaco.io"
+url: "https://iaco-io.github.io"
 baseurl: "" # or "/blog" or "/site"
 include: ["_pages", ".well-known"]
 permalink: /article/:title/
@@ -85,12 +85,12 @@ author:
   description: ""
   avatar: avatars/iaco.jpg
   email: hi@iaco.io
-  web:       https://iaco.io
-  instagram: https://iaco.io/ig
-  youtube:   https://iaco.io/yt
-  facebook:  https://iaco.io/fb
-  linkedin:  https://iaco.io/linkedin
-  mastodon:  https://iaco.io/masto
+  web:       https://iaco-io.github.io
+  instagram: https://iaco-io.github.io/ig
+  youtube:   https://iaco-io.github.io/yt
+  facebook:  https://iaco-io.github.io/fb
+  linkedin:  https://iaco-io.github.io/linkedin
+  mastodon:  https://iaco-io.github.io/masto
 
 # Plugins
 plugins:

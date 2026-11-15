@@ -5,7 +5,7 @@ permalink: /template/
 # redirect_from:
 #   - /aa
 #   - /bb
-# redirect_to: https://iaco.io
+# redirect_to: https://iaco-io.github.io
 # link-to-share: https://other-link.to/different-website?video=x
 featured: false #true
 hidden: false #true
@@ -76,7 +76,7 @@ links-footer: true #false
 
 {% include col1 %}
 
-<a href="https://iaco.io" class="modal">modal</a>
+<a href="https://iaco-io.github.io" class="modal">modal</a>
 
 {% include col2 %}
 
@@ -169,7 +169,7 @@ Column Two
 Column Three
 {% include colend %}
 
-`[link]``(url)` [link](/) | `[link <a-out/>]``(url)` [link <a-out/>](https://iaco.io)
+`[link]``(url)` [link](/) | `[link <a-out/>]``(url)` [link <a-out/>](https://iaco-io.github.io)
 `*` text *italic* text `*` | `**` text **bold** text `**`
 `***` text ***highlight*** text `***` | `~~` text ~~strike~~ text `~~`
 < hr > `---` | `` ` `` `code` `` ` ``

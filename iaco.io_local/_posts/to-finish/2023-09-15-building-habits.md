@@ -3,7 +3,7 @@ layout: default
 # redirect_from:
 #   - /aa
 #   - /bb
-# redirect_to: https://iaco.io
+# redirect_to: https://iaco-io.github.io
 # link-to-share: https://other-link.to/different-website?video=x
 date: 2024-09-11 20:30:00 +0100
 featured: false #true
