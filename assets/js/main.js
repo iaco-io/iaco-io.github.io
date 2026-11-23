@@ -223,8 +223,28 @@
 		});
 	};
 
+	/* Showroom: cards fade with distance from the vertical middle of the screen */
+	var ssShowroomFocus = function() {
+		var cards = document.querySelectorAll('.showroom-bg');
+		if (!cards.length) return;
+
+		function update() {
+			var mid = window.innerHeight / 2;
+			cards.forEach(function(el) {
+				var r = el.getBoundingClientRect();
+				var d = Math.min(Math.abs(r.top + r.height / 2 - mid) / mid, 1);
+				el.style.setProperty('opacity', (1 - 0.75 * d).toFixed(2), 'important');
+			});
+		}
+
+		window.addEventListener('scroll', update, { passive: true });
+		window.addEventListener('resize', update);
+		update();
+	};
+
 	/* Initialize */
 	(function ssInit() {
+		ssShowroomFocus();
 		ssFitVids();
 		ssMasonryFolio();
 		ssMenuOnScrolldown();
